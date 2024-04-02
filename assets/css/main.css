@@ -3955,3 +3955,26 @@
 	letter-spacing: 0.2em;
     font-size: 90%;
 }
+@media screen and (max-width: 1680px) {
+
+	.relawan {
+		font-size: 90%;
+	}
+
+}
+
+@media screen and (max-width: 1280px) {
+
+	.relawan {
+		font-size: 60%;
+	}
+
+}
+
+@media screen and (max-width: 360px) {
+
+	.relawan {
+		font-size: 30%;
+	}
+
+}
