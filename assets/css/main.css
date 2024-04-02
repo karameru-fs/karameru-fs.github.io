@@ -1624,6 +1624,7 @@
 	body {
 		background: #333;
 		background-image: url("images/pattern.png");
+		background-size: cover;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -3335,7 +3336,7 @@
 
 				.wrapper.fullscreen {
 					padding: 2em 0;
-					min-height: 0;
+					min-height: 100vh;
 				}
 
 					body.is-ie .wrapper.fullscreen {
@@ -3898,7 +3899,7 @@
 		@media screen and (max-width: 736px) {
 
 			#sidebar {
-				display: none;
+				display: unset;
 			}
 
 		}
